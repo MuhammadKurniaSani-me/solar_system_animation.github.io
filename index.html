@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/stylesheets/output.css">
+    <title>Animation</title>
+</head>
+<body class="bg-gray-900 h-screen">
+    <header class="relative z-0">
+        <nav class="fixed z-10 h-16 w-full flex items-center justify-center">
+            <figure class="">
+                <a href="index.html">
+                    <img class="h-8" src="./dist/images/icons/sunbox_logo.svg" alt="">
+                </a>
+            </figure>
+        </nav>
+    </header>
+    <main class="h-full w-full flex items-center justify-center">
+        <section class="relative">
+            <h1 class="hidden"></h1>
+            <figure class="relative h-96 w-96 flex items-center justify-center">
+                
+                <img class="relative block h-48  z-10 animate-spin-fast" src="./dist/images/pictures/sun.svg" alt="Sun">
+
+                <figure class="absolute h-60 w-60 z-20 flex items-center justify-center">
+
+                    <img class="block animate-spin-medium" src="./dist/images/pictures/inner_planet.svg" alt="Inner Planet">
+                    
+                    <figure class="absolute block h-72 w-72 z-30">
+                        <img class="block animate-spin-slow" src="./dist/images/pictures/outer_planet.svg" alt="Outer Planet">
+                    </figure>
+                </figure>
+
+            </figure>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
