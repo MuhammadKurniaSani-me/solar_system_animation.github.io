@@ -3,9 +3,13 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'spin-slow': 'spin 9s linear infinite',
-        'spin-medium': 'spin 6s linear infinite',
-        'spin-fast': 'spin 3s linear infinite',
+        'spin-slowest': 'spin 87s linear infinite',
+        'spin-slower': 'spin 66s linear infinite',
+        'spin-slow': 'spin 48s linear infinite',
+        'spin-medium': 'spin 33s linear infinite',
+        'spin-fast': 'spin 21s linear infinite',
+        'spin-faster': 'spin 12s linear infinite',
+        'spin-fastest': 'spin 6s linear infinite',
       }
     },
   },

@@ -10031,6 +10031,30 @@ video {
   }
 }
 
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .animate-none {
   -webkit-animation: none;
           animation: none;
@@ -10056,19 +10080,39 @@ video {
           animation: bounce 1s infinite;
 }
 
+.animate-spin-slowest {
+  -webkit-animation: spin 87s linear infinite;
+          animation: spin 87s linear infinite;
+}
+
+.animate-spin-slower {
+  -webkit-animation: spin 66s linear infinite;
+          animation: spin 66s linear infinite;
+}
+
 .animate-spin-slow {
-  -webkit-animation: spin 9s linear infinite;
-          animation: spin 9s linear infinite;
+  -webkit-animation: spin 48s linear infinite;
+          animation: spin 48s linear infinite;
 }
 
 .animate-spin-medium {
-  -webkit-animation: spin 6s linear infinite;
-          animation: spin 6s linear infinite;
+  -webkit-animation: spin 33s linear infinite;
+          animation: spin 33s linear infinite;
 }
 
 .animate-spin-fast {
-  -webkit-animation: spin 3s linear infinite;
-          animation: spin 3s linear infinite;
+  -webkit-animation: spin 21s linear infinite;
+          animation: spin 21s linear infinite;
+}
+
+.animate-spin-faster {
+  -webkit-animation: spin 12s linear infinite;
+          animation: spin 12s linear infinite;
+}
+
+.animate-spin-fastest {
+  -webkit-animation: spin 6s linear infinite;
+          animation: spin 6s linear infinite;
 }
 
 .cursor-auto {
@@ -41651,19 +41695,39 @@ video {
             animation: bounce 1s infinite;
   }
 
+  .sm\:animate-spin-slowest {
+    -webkit-animation: spin 87s linear infinite;
+            animation: spin 87s linear infinite;
+  }
+
+  .sm\:animate-spin-slower {
+    -webkit-animation: spin 66s linear infinite;
+            animation: spin 66s linear infinite;
+  }
+
   .sm\:animate-spin-slow {
-    -webkit-animation: spin 9s linear infinite;
-            animation: spin 9s linear infinite;
+    -webkit-animation: spin 48s linear infinite;
+            animation: spin 48s linear infinite;
   }
 
   .sm\:animate-spin-medium {
-    -webkit-animation: spin 6s linear infinite;
-            animation: spin 6s linear infinite;
+    -webkit-animation: spin 33s linear infinite;
+            animation: spin 33s linear infinite;
   }
 
   .sm\:animate-spin-fast {
-    -webkit-animation: spin 3s linear infinite;
-            animation: spin 3s linear infinite;
+    -webkit-animation: spin 21s linear infinite;
+            animation: spin 21s linear infinite;
+  }
+
+  .sm\:animate-spin-faster {
+    -webkit-animation: spin 12s linear infinite;
+            animation: spin 12s linear infinite;
+  }
+
+  .sm\:animate-spin-fastest {
+    -webkit-animation: spin 6s linear infinite;
+            animation: spin 6s linear infinite;
   }
 
   .sm\:cursor-auto {
@@ -72894,19 +72958,39 @@ video {
             animation: bounce 1s infinite;
   }
 
+  .md\:animate-spin-slowest {
+    -webkit-animation: spin 87s linear infinite;
+            animation: spin 87s linear infinite;
+  }
+
+  .md\:animate-spin-slower {
+    -webkit-animation: spin 66s linear infinite;
+            animation: spin 66s linear infinite;
+  }
+
   .md\:animate-spin-slow {
-    -webkit-animation: spin 9s linear infinite;
-            animation: spin 9s linear infinite;
+    -webkit-animation: spin 48s linear infinite;
+            animation: spin 48s linear infinite;
   }
 
   .md\:animate-spin-medium {
-    -webkit-animation: spin 6s linear infinite;
-            animation: spin 6s linear infinite;
+    -webkit-animation: spin 33s linear infinite;
+            animation: spin 33s linear infinite;
   }
 
   .md\:animate-spin-fast {
-    -webkit-animation: spin 3s linear infinite;
-            animation: spin 3s linear infinite;
+    -webkit-animation: spin 21s linear infinite;
+            animation: spin 21s linear infinite;
+  }
+
+  .md\:animate-spin-faster {
+    -webkit-animation: spin 12s linear infinite;
+            animation: spin 12s linear infinite;
+  }
+
+  .md\:animate-spin-fastest {
+    -webkit-animation: spin 6s linear infinite;
+            animation: spin 6s linear infinite;
   }
 
   .md\:cursor-auto {
@@ -104137,19 +104221,39 @@ video {
             animation: bounce 1s infinite;
   }
 
+  .lg\:animate-spin-slowest {
+    -webkit-animation: spin 87s linear infinite;
+            animation: spin 87s linear infinite;
+  }
+
+  .lg\:animate-spin-slower {
+    -webkit-animation: spin 66s linear infinite;
+            animation: spin 66s linear infinite;
+  }
+
   .lg\:animate-spin-slow {
-    -webkit-animation: spin 9s linear infinite;
-            animation: spin 9s linear infinite;
+    -webkit-animation: spin 48s linear infinite;
+            animation: spin 48s linear infinite;
   }
 
   .lg\:animate-spin-medium {
-    -webkit-animation: spin 6s linear infinite;
-            animation: spin 6s linear infinite;
+    -webkit-animation: spin 33s linear infinite;
+            animation: spin 33s linear infinite;
   }
 
   .lg\:animate-spin-fast {
-    -webkit-animation: spin 3s linear infinite;
-            animation: spin 3s linear infinite;
+    -webkit-animation: spin 21s linear infinite;
+            animation: spin 21s linear infinite;
+  }
+
+  .lg\:animate-spin-faster {
+    -webkit-animation: spin 12s linear infinite;
+            animation: spin 12s linear infinite;
+  }
+
+  .lg\:animate-spin-fastest {
+    -webkit-animation: spin 6s linear infinite;
+            animation: spin 6s linear infinite;
   }
 
   .lg\:cursor-auto {
@@ -135380,19 +135484,39 @@ video {
             animation: bounce 1s infinite;
   }
 
+  .xl\:animate-spin-slowest {
+    -webkit-animation: spin 87s linear infinite;
+            animation: spin 87s linear infinite;
+  }
+
+  .xl\:animate-spin-slower {
+    -webkit-animation: spin 66s linear infinite;
+            animation: spin 66s linear infinite;
+  }
+
   .xl\:animate-spin-slow {
-    -webkit-animation: spin 9s linear infinite;
-            animation: spin 9s linear infinite;
+    -webkit-animation: spin 48s linear infinite;
+            animation: spin 48s linear infinite;
   }
 
   .xl\:animate-spin-medium {
-    -webkit-animation: spin 6s linear infinite;
-            animation: spin 6s linear infinite;
+    -webkit-animation: spin 33s linear infinite;
+            animation: spin 33s linear infinite;
   }
 
   .xl\:animate-spin-fast {
-    -webkit-animation: spin 3s linear infinite;
-            animation: spin 3s linear infinite;
+    -webkit-animation: spin 21s linear infinite;
+            animation: spin 21s linear infinite;
+  }
+
+  .xl\:animate-spin-faster {
+    -webkit-animation: spin 12s linear infinite;
+            animation: spin 12s linear infinite;
+  }
+
+  .xl\:animate-spin-fastest {
+    -webkit-animation: spin 6s linear infinite;
+            animation: spin 6s linear infinite;
   }
 
   .xl\:cursor-auto {
@@ -166623,19 +166747,39 @@ video {
             animation: bounce 1s infinite;
   }
 
+  .\32xl\:animate-spin-slowest {
+    -webkit-animation: spin 87s linear infinite;
+            animation: spin 87s linear infinite;
+  }
+
+  .\32xl\:animate-spin-slower {
+    -webkit-animation: spin 66s linear infinite;
+            animation: spin 66s linear infinite;
+  }
+
   .\32xl\:animate-spin-slow {
-    -webkit-animation: spin 9s linear infinite;
-            animation: spin 9s linear infinite;
+    -webkit-animation: spin 48s linear infinite;
+            animation: spin 48s linear infinite;
   }
 
   .\32xl\:animate-spin-medium {
-    -webkit-animation: spin 6s linear infinite;
-            animation: spin 6s linear infinite;
+    -webkit-animation: spin 33s linear infinite;
+            animation: spin 33s linear infinite;
   }
 
   .\32xl\:animate-spin-fast {
-    -webkit-animation: spin 3s linear infinite;
-            animation: spin 3s linear infinite;
+    -webkit-animation: spin 21s linear infinite;
+            animation: spin 21s linear infinite;
+  }
+
+  .\32xl\:animate-spin-faster {
+    -webkit-animation: spin 12s linear infinite;
+            animation: spin 12s linear infinite;
+  }
+
+  .\32xl\:animate-spin-fastest {
+    -webkit-animation: spin 6s linear infinite;
+            animation: spin 6s linear infinite;
   }
 
   .\32xl\:cursor-auto {

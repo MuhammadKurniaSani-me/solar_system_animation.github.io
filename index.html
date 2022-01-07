@@ -1,33 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./dist/stylesheets/output.css">
-    <title>Animation</title>
-</head>
-<body class="bg-gray-900">
-    <header class="relative z-0">
-        <nav class="fixed z-10 h-16 w-full flex items-center justify-center">
-            <figure class="">
-                <a href="index.html">
-                    <img class="h-6" src="./dist/images/icons/sunbox_logo.svg" alt="">
-                </a>
-            </figure>
-        </nav>
-    </header>
-    <main class="h-screen w-screen overflow-hidden flex items-center justify-center">
-        <section class="relative flex items-center justify-center">
-            <h1 class="hidden"></h1>
-            <figure class="h-48 w-48 absolute z-10">
-                <img class="inline-block animate-spin-fast" src="./dist/images/pictures/sun.svg" alt="Sun">
-            </figure>
-            <figure class="h-64 w-64 absolute z-20">
-                <img class="animate-spin-slow" src="./dist/images/pictures/inner_planet.svg" alt="">
-            </figure>
-        </section>
-    </main>
-    <footer></footer>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./dist/stylesheets/output.css" />
+        <title>Animation</title>
+    </head>
+    <body class="bg-gray-900">
+        <header class="relative z-0">
+            <nav
+                class="fixed z-10 h-16 w-full flex items-center justify-center"
+            >
+                <figure class="">
+                    <a href="index.html">
+                        <img
+                            class="h-6"
+                            src="./dist/images/icons/sunbox_logo.svg"
+                            alt=""
+                        />
+                    </a>
+                </figure>
+            </nav>
+        </header>
+        <main
+            class="
+                h-screen
+                w-screen
+                overflow-hidden
+                flex
+                items-center
+                justify-center
+            "
+        >
+<!--         
+        'animate-spin-slowest': 'spin 87s linear infinite',
+        'animate-spin-slower': 'spin 66s linear infinite',
+        'animate-spin-slow': 'spin 48s linear infinite',
+        'animate-spin-medium': 'spin 33s linear infinite',
+        'animate-spin-fast': 'spin 21s linear infinite',
+        'animate-spin-faster': 'spin 12s linear infinite',
+        'animate-spin-fastest': 'spin 6s linear infinite', 
+-->
+            <section class="relative flex items-center justify-center">
+                <figure class="relative flex items-center justify-center">
+                    <figure class="absolute z-40 h-14 w-14">
+                        <img src="./dist/images/pictures/Sun.svg" alt="Sun">
+                    </figure>
+                    <figure class="absolute z-30 h-28 w-28">
+                        <img class="animate-spin-faster" src="./dist/images/pictures/InnerCorona.svg" alt="Inner Corona">
+                    </figure>
+                    <figure class="absolute z-20 h-36 w-36">
+                        <img class="animate-spin-fast" src="./dist/images/pictures/OuterCorona.svg" alt="Outer Corona">
+                    </figure>
+                </figure>
+                <figure class="absolute animate-spin-slower z-10 flex justify-center h-80 w-80">
+                    <img class="absolute" src="./dist/images/pictures/Orbit.svg" alt="Earth Orbit">
+                    <figure class="relative animate-spin-faster -top-12 flex items-center justify-center h-24 w-24">
+                        <img class="absolute animate-spin-slow" src="./dist/images/pictures/Orbit.svg" alt="Moon Orbit">
+                        <figure class="h-12 w-12 animate-spin-medium">
+                            <img class="" src="./dist/images/pictures/Earth.svg" alt="Earth">
+                        </figure>
+                        <figure class="absolute animate-spin-fastest -top-5 h-7 w-7">
+                            <img class="animate-spin-fastest" src="./dist/images/pictures/Moon.svg" alt="Moon">
+                        </figure>
+                    </figure>
+                </figure>
+            </section>
+        </main>
+        <footer></footer>
+        <!-- file:///home/sunny/Documents/programming/HTML%20Programs/tailwind_CSS/solar_system_animation/index.html -->
+    </body>
 </html>
