@@ -1,7 +1,5 @@
 module.exports = {
-  purge: {
-    content: ["*.{html}"],
-  },
+  purge: ["./index.html"],
   theme: {
     extend: {
       animation: {
